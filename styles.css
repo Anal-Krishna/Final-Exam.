@@ -1,0 +1,122 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f57f17;
+}
+
+header {
+    background-color: #125784;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 100px;
+    width: auto;
+    margin-right: 10px;
+}
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+nav ul li:not(:last-child):after {
+    content: "|";
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+}
+.horizontal-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.with-space {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.center-aligned {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-with-background {
+    background-image: url(img1.jpg);
+    background-size: auto 320%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    position: relative;
+}
+.image-container img {
+    width: 30%;
+    height: auto;
+}
+
+
+article {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
